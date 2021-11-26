@@ -96,7 +96,7 @@ const config = {
     interfaceName: (name) => `X${name}`,
     enumName: (name, interfaceName) => `Enum${interfaceName}${name}`,
     importAsType: (interfaceName) => interfaceName === 'MyInterfaceThatWantsToImportAsTypes' /* or just true */,
-    outputFileName: (interfaceName, filename) => interfaceName;
+    outputFileName: (interfaceName, filename) => interfaceName
 }
 module.exports = config;
 ```
